@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .none {
+        display: none;
+      }
+      img {
+        width: 2rem;
+      }
+    </style>
+    <link rel="stylesheet" href="audio.css" />
+  </head>
+  <body>
+    <audio
+      src="./audio/MOSES-BLISS-Loveworld-Indomitable-Choir-CeeNaija.com_.mp3"
+    ></audio>
+    <div class="media-player">
+      <h1>My Playlist</h1>
+      <ul id="songList">
+        <li
+          data-src="./audio/Bidemi-Olaoba-feat-Mercy-Chinwo-Give-Me-Chance-(CeeNaija.com).mp3"
+        >
+          Bidemi Olaoba feat Mercy Chinwo : Give Me Chance
+        </li>
+        <li
+          data-src="./audio/Mercy-Chinwo-From-The-Rising-(TrendyBeatz.com).mp3"
+        >
+        Mercy-Chinwo : From TheRising
+        </li>
+        <li
+          data-src="./audio/Rema-Ft-Shallipopi-Benin-Boys-(TrendyBeatz.com).mp3"
+        >
+        Rema-Ft-Shallipopi : Benin Boys
+        </li>
+        <li
+          data-src="./audio/Prinx_Emmanuel_-_Who_Goes_That_Man_CeeNaija.com_.mp3"
+        >
+        Prinx-Emmanuel : Who Goes That Man
+        </li>
+        <li
+          data-src="./audio/Phyno-Ft-Flavour-Men-Don-Show-Face-(TrendyBeatz.com).mp3"
+        >
+        Phyno-Ft-Flavour : Men Don Show Face
+        </li>
+        <li data-src="./audio/Moses_Bliss_-_Marvelous_GOD_CeeNaija.com_.mp3">
+          Moses-Bliss : Marvelous GOD
+        </li>
+        <li
+          data-src="./audio/MOSES-BLISS-Loveworld-Indomitable-Choir-CeeNaija.com_.mp3"
+        >
+        MOSES-BLISS-Loveworld : Indomitable-Choir
+        </li>
+      </ul>
+    </div>
+    <audio id="audioplayer">jk;;h</audio>
+    <!-- Music Progress Bar -->
+    <div class="progress-container">
+      <div class="progress" id="progressBar"></div>
+    </div>
+
+    <div class="allbtn">
+      <button class="previousbtn">
+        <img src="images/Play button arrowhead.png" alt="" class="prevbtn1" />
+        <img src="images/Play button arrowhead.png" alt="" class="prevbtn2" />
+      </button>
+      <div>
+        <button class="playbtn">
+          <img src="images/Trending.png" alt="" class="playbtn" />
+        </button>
+        <button class="pausebtn none" style="color: blue">
+          <img src="images/Trending.png" alt="" class="playbtn" />
+        </button>
+      </div>
+      <button class="nextbtn">
+        <img
+          src="images/Play button arrowhead (1).png"
+          alt=""
+          class="nextbtn1"
+        />
+        <img
+          src="images/Play button arrowhead (1).png"
+          alt=""
+          class="nextbtn2"
+        />
+      </button>
+    </div>
+    <script src="./audio/audio.js"></script>
+  </body>
+</html>

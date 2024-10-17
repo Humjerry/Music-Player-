@@ -1,0 +1,536 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+.generalbody {
+  display: flex;
+  width: 95%;
+}
+.main::-webkit-scrollbar {
+  display: none;
+}
+aside {
+  box-shadow: 0.1rem 0.1rem 0.1rem black;
+  flex-wrap: wrap;
+  width: 328px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #fe9e00;
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  /* box-shadow: #fe9e00; */
+}
+
+.footere1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.aside2 {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  gap: 10px;
+  border-radius: 15px;
+  background: #fff8e6;
+  margin-top: 40px;
+}
+.aside2 h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 27.84px;
+  color: rgba(254, 181, 0, 1);
+}
+.aside2 img {
+  width: 28px;
+  height: 28.76px;
+}
+.aside1 img {
+  width: 53px;
+  height: 50px;
+}
+.aside1 {
+  display: flex;
+  gap: 5px;
+}
+.aside1 h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 43px;
+  font-weight: 700;
+
+  color: rgba(255, 196, 0, 1);
+}
+.span1 {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  align-items: center;
+}
+.span1 img {
+  width: 28px;
+  height: 28px;
+}
+.span1 p {
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.span2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.span2 img {
+  width: 28px;
+  height: 28px;
+}
+.span2 p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+.span img {
+  width: 32px;
+  height: 34px;
+  border-radius: 10px;
+}
+.span p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.allspan {
+  margin-top: 50px;
+}
+.input-style {
+}
+
+.input {
+  width: 700px;
+  height: 80px;
+  flex: 1;
+  border-style: dashed;
+  border-radius: 10px;
+  border: 1px solid #fe9e00;
+  padding: 20px;
+  outline: none;
+}
+.input ::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+}
+.user {
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  align-items: center;
+}
+.user .img2 {
+  width: 51px;
+  height: 47px;
+  border-radius: 50%;
+}
+.user .img1,
+.img3 {
+  width: 13px;
+  height: 13px;
+  margin-top: 18px;
+}
+.img3 {
+  transform: rotate(30deg);
+}
+.user h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.nav {
+  /* width: 100%; */
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+}
+
+.underseartext1 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 44px;
+}
+.undersearchtext2 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 25px;
+  margin: 1rem 0;
+}
+.showmore {
+  gap: 10px;
+  display: flex;
+}
+.underdiv {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+  align-items: center;
+}
+.img6 {
+  width: 27.46px;
+  height: 19.86px;
+  border-radius: 600px;
+  margin-left: -7px;
+}
+.pi {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+span {
+  color: #fe9e00;
+  margin-right: 10px;
+}
+.firstaudio {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.firstaudio::-webkit-scrollbar {
+  display: none;
+}
+.firstaudio .audio5 h2,
+.firstaudio .audio4 h2,
+.firstaudio .audio2 h2,
+.firstaudio .audio3 h2,
+.firstaudio .audio1 h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  /* padding-left: 15px; */
+  margin-top: -55px;
+  text-align: left;
+}
+.firstaudio .audio5 p,
+.firstaudio .audio2 p,
+.firstaudio .audio3 p,
+.firstaudio .audio4 p,
+.firstaudio .audio1 p {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.firstaudio .audio1 .audio1-img {
+  border-radius: 60px;
+}
+.firstaudio .audio2 .audio2-img {
+  border-radius: 60px;
+  margin-right: 90px;
+}
+.firstaudio .audio3 .audio3-img {
+  border-radius: 60px;
+}
+.firstaudio .audio4 .audio4-img {
+  border-radius: 60px;
+}
+.firstaudio .audio5 .audio5-img {
+  border-radius: 60px;
+  box-shadow: 0.1rem 0.2rem 0.2rem black;
+}
+.trending1,
+.trending2,
+.trending3,
+.trending4,
+.trending5,
+.trending6,
+.trending7,
+.trending8,
+.trending9,
+.trending10 {
+  width: 68px;
+  height: 64px;
+  position: relative;
+  top: -90px;
+  left: 230px;
+}
+
+.text {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div,
+.div1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.img4,
+.img5,
+.img7 {
+  width: 27.46px;
+  height: 19.86px;
+  border-radius: 600px;
+  margin-left: 5px;
+}
+
+.all2ndaudio {
+  display: flex;
+  gap: 10px;
+}
+.text .h1,
+.text .h11 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.h1 {
+  margin-right: 360px;
+}
+.text .p1,
+.text .p11 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.p11 {
+  margin-left: 30px;
+}
+
+.secondaudio {
+  overflow: hidden;
+  overflow-x: scroll;
+  gap: 15px;
+}
+.secondaudio::-webkit-scrollbar {
+  display: none;
+}
+
+.secondaudio .audio4 img {
+  width: 152px;
+  border-radius: 27px;
+  margin-right: 40px;
+}
+.secondaudio .audio5 img,
+.secondaudio .audio6 img,
+.secondaudio .audio7 img,
+.secondaudio .audio8 img,
+.secondaudio .audio9 img,
+.secondaudio .audio1 img,
+.secondaudio .audio2 img,
+.secondaudio .audio3 img {
+  width: 152px;
+  border-radius: 27px;
+}
+.secondaudio .audio9 h2,
+.secondaudio .audio8 h2,
+.secondaudio .audio7 h2,
+.secondaudio .audio6 h2,
+.secondaudio .audio5 h2,
+.secondaudio .audio4 h2,
+.secondaudio .audio3 h2,
+.secondaudio .audio2 h2,
+.secondaudio .audio1 h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: center;
+}
+
+.show1,
+.second1,
+.second2 {
+  display: flex;
+  align-items: center;
+}
+.thirdaudiotext {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.thirdaudio {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.third1 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.third2 {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 317px;
+}
+.img7 {
+  width: 27.46px;
+  height: 19.86px;
+  border-radius: 600px;
+  margin: 15px;
+  margin-left: 7px;
+}
+.thirdtext1 {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+.thirdtext2,
+.thirdtext4,
+.thirdtext5,
+.thirdtext3,
+.thirdtext1 {
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+
+.thirdaudio1 img,
+.thirdaudio2 img,
+.thirdaudio3 img,
+.thirdaudio4 img,
+.thirdaudio5 img {
+  width: 323px;
+  border-radius: 60px;
+  box-shadow: 1rem 1rem o.5rem black;
+}
+
+.main {
+  width: 85%;
+  padding-left: 30px;
+  overflow-y: scroll;
+}
+.textthird5,
+.textthird3,
+.textthird4,
+.textthird2,
+.textthird1 {
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 15px;
+  text-align: left;
+}
+.outsidethird {
+  display: flex;
+  gap: 10px;
+}
+.thirdaudio::-webkit-scrollbar {
+  display: none;
+}
+footer {
+  box-shadow: 0.2rem 0.1rem 0.5rem black;
+  align-items: center;
+  z-index: 1000;
+  position: fixed;
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  height: 120px;
+  bottom: 0;
+}
+#songList {
+  opacity: 0;
+}
+button img {
+  width: 30px;
+  height: 30px;
+}
+.exportbtn {
+  width: 69px;
+  height: 60px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+.light{
+  color:gold;
+}
+.dark {
+  background: gray;
+}
+.footerimg {
+  width: 150px;
+  height: 118px;
+}
+
+.footer article {
+  display: flex;
+  justify-content: space-between;
+  /* padding-right: 5rem; */
+  align-items: center;
+  width: 80%;
+}
+.foot2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.control {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.songList {
+  display: none;
+}
+.none {
+  display: none;
+}
+
+/* Progress Bar Styles */
+.progress-container {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  position: relative;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: #feb500;
+  transition: width 0.1s ease;
+}

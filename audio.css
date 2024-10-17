@@ -1,0 +1,131 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #121212, #2c2c2c); 
+    color: #f0f0f0; 
+  }
+  
+  /* Media Player Styles starts here */
+  
+  .media-player {
+    width: 80%;
+    margin: 40px auto;
+    background-color: rgba(30, 30, 30, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .media-player h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FFD700; 
+  }
+  
+  
+  
+  #songList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #songList li {
+    padding: 15px;
+    border-bottom: 1px solid #444; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+  }
+  
+  #songList li:hover {
+    background-color: #FFD700;
+    color: #121212; 
+  }
+  
+  #songList li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Audio Player Styles */
+  
+  #audioplayer {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+  }
+  
+ 
+  
+  button {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #FFD700; 
+    color: #121212; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    width: 40px;
+    height: 40px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  button:hover {
+    background-color: #ffcc00; 
+  }
+  
+  /* Specific Button Styles  starts here*/
+  
+  .previousbtn, .playbtn, .pausebtn, .nextbtn {
+    margin: 10px;
+    padding: 5px;
+  }
+  .songList{
+    display: none;
+  }
+  .previousbtn img {
+    transform: rotate(0deg);
+  }
+  
+  .nextbtn img {
+   
+    transform: rotate(0deg);
+  }
+  .allbtn{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Responsive Design  starts here*/
+  
+  @media only screen and (max-width: 768px) {
+    .media-player {
+      width: 90%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .media-player {
+      width: 100%;
+      padding: 10px;
+    }
+    button {
+      padding: 5px;
+      width: 35px; 
+      height: 35px; 
+    }
+  }
